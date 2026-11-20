@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "hwp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "hwp-mcp@latest"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# 개인 공모전 기록 (폴더 구조만 유지)
+contests/*
+!contests/.gitkeep
+
+# 로컬 설정·브라우저 기록
+.claude/settings.local.json
+.playwright-mcp/
+
+# 외부 스킬 (npx skills add remotion-dev/skills 로 설치, skills-lock.json 참고)
+.agents/
+.claude/skills/remotion-*/
+
+node_modules/
+.DS_Store
+Thumbs.db
